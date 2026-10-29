@@ -1,42 +1,44 @@
 # Exp2-Image-Acquisition-Using-Web-Camera
 
-Aim
+## Aim
 To write a Python program using OpenCV to capture images from a webcam and perform the following image manipulations:
 
-Write the captured frame as a JPG file.
-Display the video.
-Display the video by resizing the frame.
-Rotate and display the video.
+- Write the captured frame as a JPG file.
+- Display the video.
+- Display the video by resizing the frame.
+- Rotate and display the video.
 
-Software Used```
+Software Used
+```
 Anaconda
 Python 3.7
 OpenCV
 NumPy
+```
 Algorithm
 
-Step 1
+- Step 1
 Import the cv2 and numpy packages.
 
-Step 2
+- Step 2
 Read the video frame using cv2.VideoCapture(0).
 
-Step 3
+- Step 3
 Write the captured image using cv2.imwrite().
 
-Step 4
+- Step 4
 Display the video frame using cv2.imshow().
 
-Step 5
+- Step 5
 Divide the frame into four parts, resize the frame, and assign the smaller frame to each part.
 
-Step 6
+- Step 6
 Rotate the frame using cv2.rotate() and display the output.
 
-Program
-Developed By: RITHIKA K
+## Program
+#### Developed By: RITHIKA K
 
-Register Number: 212225040343
+#### Register Number: 212225040343
 
 i) Write the Frame as a JPG File
 ```
@@ -115,11 +117,24 @@ cap.release()
 Output
 i) Write the Frame as a JPG Image
 image
+
+<img width="662" height="525" alt="image" src="https://github.com/user-attachments/assets/220c500a-6643-4239-9151-eafb8f41b0a8" />
+
 ii) Display the Video
-image
+ image
+ 
+ <img width="667" height="507" alt="image" src="https://github.com/user-attachments/assets/d8df8ee6-83a8-4cbf-bfaa-c80af5c3cb29" />
+
 iii) Display the Video by Resizing the Frame
 image
+
+<img width="427" height="495" alt="image" src="https://github.com/user-attachments/assets/85e04743-de58-4657-b3cd-b8986e22cccc" />
+
 iv) Rotate and Display the Video
 image
-Result
+
+<img width="420" height="492" alt="image" src="https://github.com/user-attachments/assets/675d81d6-6672-4321-a07f-91d3afe0a30d" />
+
+## Result:
+
 Thus, images were captured from the webcam, saved as JPG files, and displayed using OpenCV. The video frames were resized and rotated successfully.
